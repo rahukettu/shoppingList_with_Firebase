@@ -51,18 +51,17 @@ Make sure you have the following installed:
    ```bash
    git clone https://github.com/rahukettu/shoppingList_with_Firebase.git
    cd shoppingList_with_Firebase
-
+`
     Install dependencies:
 
-    bash
-
+```bash
 npm install
-
+```
 Configure Firebase:
 
     Create a file named firebaseConfig.js in the root of the project and set up your Firebase configuration.
     Example:
-
+  ```
 javascript
 
 import { initializeApp } from 'firebase/app';
@@ -81,7 +80,7 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 export { db };
-
+```
 Run the application:
 
 bash
