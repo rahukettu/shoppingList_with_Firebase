@@ -51,8 +51,8 @@ Make sure you have the following installed:
    ```bash
    git clone https://github.com/rahukettu/shoppingList_with_Firebase.git
    cd shoppingList_with_Firebase
-bash
-    Install dependencies:
+   
+  Install dependencies:
 
 ```bash
 npm install
